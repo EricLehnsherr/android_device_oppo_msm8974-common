@@ -18,7 +18,7 @@ ifneq ($(QCPATH),)
 $(call inherit-product-if-exists, $(QCPATH)/common/config/device-vendor.mk)
 endif
 
-$(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
+#$(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
 
 # overlays
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
